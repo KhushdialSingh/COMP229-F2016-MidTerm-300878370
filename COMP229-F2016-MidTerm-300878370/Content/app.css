@@ -89,3 +89,23 @@ body {
     border: 1px solid #dddddd;
     cursor: pointer;
 }
+
+.tables{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.edit{
+    background-color: #2458ad;
+    color: white;
+}
+
+.delete{
+    width: 50%;
+}
+
+.details{
+    margin: auto;
+    width: 25%;
+}
