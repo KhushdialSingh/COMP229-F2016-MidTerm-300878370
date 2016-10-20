@@ -16,6 +16,14 @@ namespace COMP229_F2016_MidTerm_300878370.Models
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Todo>()
+                .Property(e => e.TodoDescription)
+                .IsUnicode(false);
+
+            /*
+            modelBuilder.Entity<Table>()
+                .Property(e => e.Team2)
+                .IsUnicode(false); */
         }
     }
 }
